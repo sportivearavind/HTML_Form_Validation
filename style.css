@@ -5,6 +5,7 @@ body{
     width: 100%;
     justify-content: center;
     align-items: center;
+    
 }
 
 #username{
@@ -13,4 +14,14 @@ body{
     text-align: center;
     border-radius: 10px;
     font-size: 20px;
+    background: linear-gradient(to right,#FC466B,#3F5EFB);
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
